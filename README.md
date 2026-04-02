@@ -6,14 +6,7 @@ Our solution consists of two fundamental parts:
 1. `train.py`: High-performance model training pipeline utilizing `ByT5-large` with custom sequences scaling, bidirectional grounding, and Tablet Damage Autoencoding.
 2. `inference.ipynb`: Minimum Bayes Risk (MBR) multi-model sampling generator.
 
----
 
-## 🏆 Results & Leaderboard Performance
-
-- **Single Model Performance (`train.py`)**: Achieved a highly competitive **35.4 Geometric Mean** evaluation score independently.
-- **Ensemble MBR Score (`inference.ipynb`)**: By ensembling our trained `train.py` model alongside a highly-rated public Kaggle model via Minimum Bayes Risk, we successfully boosted our final performance to a **35.9 Geometric Mean**.
-
----
 
 ## 🛠 Engineering & Data Science Justifications
 
